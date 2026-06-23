@@ -67,7 +67,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
 
       <div className={`page-wrap flex flex-col min-h-screen transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"}`}>
         <Navbar />
-        <main className="flex-grow w-full max-w-7xl mx-auto px-6 md:px-12 pt-28 pb-24">
+        <main className="flex-grow w-full max-w-7xl px-6 md:px-12 pt-28 pb-24">
           {children}
         </main>
         <Footer />
