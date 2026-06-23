@@ -30,7 +30,7 @@ export default function Navbar() {
     scrolled ? "glass-nav py-3" : "bg-transparent py-5"
   }`}
   data-testid="navbar"
->cat /Users/kb/Downloads/Marimo-Design-Hub/artifacts/portfolio/src/index.css
+  >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
 
         {/* Logo */}
